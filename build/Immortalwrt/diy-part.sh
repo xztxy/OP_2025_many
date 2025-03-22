@@ -124,6 +124,9 @@ git clone --depth=1 -b main https://github.com/sirpdboy/luci-app-kucat-config pa
 #拉取peditx主题
 git clone --depth=1 -b main https://github.com/peditx/luci-theme-peditx package/luci-theme-peditx
 
+#添加定时更新固件功能
+git clone --depth=1 -b main https://github.com/libntdll/luci-app-autoupdate package/luci-app-autoupdate
+
 ##### 添加额外插件
 # 拉取中文版netdata
 #git clone --depth=1 -b master https://github.com/sirpdboy/luci-app-netdata package/luci-app-netdata
