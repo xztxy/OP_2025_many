@@ -94,8 +94,11 @@ sed -i "s/hostname='*.*'/hostname='Momo'/" package/base-files/files/bin/config_g
 #sed -i "s/DISTRIB_DESCRIPTION='*.*'/DISTRIB_DESCRIPTION='OpenWrt'/g"  package/base-files/files/etc/openwrt_release
 # sed -i '/(<%=pcdata(ver.luciversion)%>)/a\      built by Momo' package/lean/autocore/files/x86/index.htm
 echo -n "$(date +'%Y%m%d')" > package/base-files/files/etc/openwrt_version
-curl -fsSL https://raw.githubusercontent.com/xztxy/New_lede_bianyi/refs/heads/main/banner_Momo > package/base-files/files/etc/banner
+# curl -fsSL https://raw.githubusercontent.com/xztxy/New_lede_bianyi/refs/heads/main/banner_Momo > package/base-files/files/etc/banner
 
+#下载nikki IP数据库
+curl -fsSL https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat > package/base-files/files/etc/nikki/run/geosite.dat
+curl -fsSL https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.metadb > package/base-files/files/etc/nikki/run/geoip.metadb
 
 ##### 移除要替换的包
 # 删除老argon
