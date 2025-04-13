@@ -171,13 +171,14 @@ sed -i 's/"网络存储"/"网络存储"/g' `egrep "网络存储" -rl ./`
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' `egrep "Turbo ACC 网络加速" -rl ./`
 sed -i 's/"实时流量监测"/"流量检测"/g' `egrep "实时流量监测" -rl ./`
 sed -i 's/"KMS 服务器"/"KMS激活"/g' `egrep "KMS 服务器" -rl ./`
-sed -i 's/"TTYD 终端"/"终端命令"/g' `egrep "TTYD 终端" -rl ./`
+sed -i 's/"终端"/"终端命令"/g' `egrep "终端" -rl ./`
 sed -i 's/"USB 打印服务器"/"打印服务"/g' `egrep "USB 打印服务器" -rl ./`
 sed -i 's/"Web 管理"/"网页管理"/g' `egrep "Web 管理" -rl ./`
 sed -i 's/"管理权"/"管理权限"/g' `egrep "管理权" -rl ./`
 sed -i 's/"带宽监控"/"网络监控"/g' `egrep "带宽监控" -rl ./`
 sed -i 's/"设置向导"/"设置向导"/g' `egrep "设置向导" -rl ./`
 sed -i 's/"Nikki"/"科学上网"/g' `egrep "Nikki" -rl ./`
+sed -i 's/"Mwol"/"硬件唤醒"/g' `egrep "Mwol" -rl ./`
 
 
 # 整理固件包时候,删除您不想要的固件或者文件,让它不需要上传到Actions空间(根据编译机型变化,自行调整删除名称)
