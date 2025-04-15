@@ -121,8 +121,8 @@ function git_sparse_clone() {
 
 ##### Themes
 # 拉取argon主题
-git clone --depth=1 -b master https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
-git clone --depth=1 -b master https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
+#git clone --depth=1 -b master https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+#git clone --depth=1 -b master https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 # 拉取酷猫主题
 git clone --depth=1 -b js https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
 git clone --depth=1 -b main https://github.com/sirpdboy/luci-app-kucat-config package/luci-app-kucat-config
